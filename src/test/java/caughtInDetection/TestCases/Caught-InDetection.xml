@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegresionTesting">
+
+	<test name="caughtInDetectionTests">
+		<classes>
+			<class name="caughtInDetection.TestCases.GenerateCaughtInDetectionAlerts"></class>
+			<class name="caughtInDetection.TestCases.TC_47_OpenAlertPageTest"></class>
+			<class name="caughtInDetection.TestCases.TC_48_AssignedOpenPageTest"></class>
+			<class name="caughtInDetection.TestCases.TC_49_ResolvedAlertPageTest"></class>
+			<class name="caughtInDetection.TestCases.TC_50_CaughtInDetectionAlertPageTest"></class>
+			<class name="caughtInDetection.TestCases.TC_51_PresentOnSitePageTest"></class>
+			<class name="caughtInDetection.TestCases.TC_52_LastAlertCardTest"></class>
+			<class name="caughtInDetection.TestCases.TC_53_MapEnlargeTest"></class>
+			<class name="caughtInDetection.TestCases.TC_54_ActiveStatusTest"></class>
+			<class name="caughtInDetection.TestCases.TC_55_AnalyticsEnlargeTest"></class>
+			<class name="caughtInDetection.TestCases.TC_56_CaughtInDetectionDateRangeTest"></class>
+			<class name="caughtInDetection.TestCases.TC_57_SearchTest"></class>
+			<class name="caughtInDetection.TestCases.TC_58_DeactiveStatusTest"></class>
+			<class name="caughtInDetection.TestCases.TC_59_AddCollisionZoneTest"></class>
+			<class name="caughtInDetection.TestCases.TC_60_AllowedWorkerTest"></class>
+			<class name="caughtInDetection.TestCases.TC_61_ActivateCollisionTest"></class>
+			<class name="caughtInDetection.TestCases.TC_62_InactivateCollisionTest"></class>
+			<class name="caughtInDetection.TestCases.TC_63_EditCollisionZoneTest"></class>
+			<class name="caughtInDetection.TestCases.TC_64_ColumnSortingTest"></class>
+			<class name="caughtInDetection.TestCases.TC_65_PaginationTest"></class>
+		</classes>
+	</test>
+</suite>

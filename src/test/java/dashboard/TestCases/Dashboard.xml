@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegresionTesting">
+	<test name="Dashboard Test">
+		<classes>
+			<class name="dashboard.TestCases.TC_01_OpenAlertPageTest"></class>
+			<class name="dashboard.TestCases.TC_02_AssignedOpenAlertPageTest"></class>
+			<class name="dashboard.TestCases.TC_03_FallPreventionAlertPageTest"></class>
+			<class name="dashboard.TestCases.TC_04_FreeFallAlertPageTest"></class>
+			<class name="dashboard.TestCases.TC_05_OOGPageTest"></class>
+			<class name="dashboard.TestCases.TC_06_CaughtInAlertPageTest"></class>
+			<class name="dashboard.TestCases.TC_08_EnlargePageTest"></class>
+			<class name="dashboard.TestCases.TC_09_ZoomTest"></class>
+			<class name="dashboard.TestCases.TC_10_AlertFilterPageTest"></class>
+			<class name="dashboard.TestCases.TC_11_AlertPageTest"></class>
+			<class name="dashboard.TestCases.TC_12_PaginationTest"></class>
+			<class name="dashboard.TestCases.TC_13_ColumnSortTest"></class>
+			<class name="dashboard.TestCases.TC_14_AlertStatusEnlargeIconTest"></class>
+			<class name="dashboard.TestCases.TC_16_TopSearchTest"></class>
+			<class name="dashboard.TestCases.SOSAlertPageTest"></class>
+		</classes>
+	</test>
+</suite>

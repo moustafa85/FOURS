@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegresionTesting">
+
+	<test name="siteMonitoringTest">
+		<classes>
+			<class name="siteMonitoring.TestCases.TC_66_OpenAlertPageTest"></class>
+			<class name="siteMonitoring.TestCases.TC_67_AssignedOpenPageTest"></class>
+			<class name="siteMonitoring.TestCases.TC_68_ResolvedAlertPageTest"></class>
+			<class name="siteMonitoring.TestCases.TC_69_AlertCardTest"></class>
+			<class name="siteMonitoring.TestCases.TC_70_PresentOnSiteCardTest"></class>
+			<class name="siteMonitoring.TestCases.TC_71_LastAlertCardTest"></class>
+			<class name="siteMonitoring.TestCases.TC_72_MapEnlargeTest"></class>
+			<class name="siteMonitoring.TestCases.TC_73_AnalyticsEnlargeTest"></class>
+			<class name="siteMonitoring.TestCases.TC_74_SiteMonitoringDateRangeTest"></class>
+			<class name="siteMonitoring.TestCases.TC_75_AddChildSiteTest"></class>
+			<class name="siteMonitoring.TestCases.TC_76_EditSiteTest"></class>
+			<class name="siteMonitoring.TestCases.TC_77_ChildSiteFilterTest"></class>
+			<class name="siteMonitoring.TestCases.TC_78_RefreshTest"></class>
+			<class name="siteMonitoring.TestCases.TC_79_LastAlertGuardianTest"></class>
+			<class name="siteMonitoring.TestCases.TC_80_BuzzerOffTest"></class>
+			<class name="siteMonitoring.TestCases.TC_80_BuzzerOnTest"></class>
+			<class name="siteMonitoring.TestCases.TC_81_FireSensorTest"></class>
+			<class name="siteMonitoring.TestCases.TC_81_IRSensorTest"></class>
+			<class name="siteMonitoring.TestCases.TC_83_AudioBroadCastTest"></class>
+			<class name="siteMonitoring.TestCases.TC_83_StopBroadCastTest"></class>
+			<class name="siteMonitoring.TestCases.TC_84_AssignReassignSGTest"></class>
+			<class name="siteMonitoring.TestCases.TC_85_AssignReassignBeaconTest"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegresionTesting">
+
+	<test name="Device Test">
+		<classes>
+			<class name="device.TestCases.TC_106_AddDevicePageTest"></class>
+			<class name="device.TestCases.TC_98_FilterTest"></class>
+			<class name="device.TestCases.TC_99_EditDevicePageTest"></class>
+			<class name="device.TestCases.TC_101_ActivateDevicePageTest"></class>
+			<class name="device.TestCases.TC_102_DeactivateDevicePageTest"></class>
+			<class name="device.TestCases.TC_103_ColumnSortingTesting"></class>
+			<class name="device.TestCases.TC_104_DevicePaginationTest"></class>
+			<class name="device.TestCases.TC_105_SearchTest"></class>
+			<class name="device.TestCases.TC_107_BulkUploadTest"></class>
+			<class name="device.TestCases.TC_100_DeleteDevice"></class>
+
+		</classes>
+	</test>
+</suite>

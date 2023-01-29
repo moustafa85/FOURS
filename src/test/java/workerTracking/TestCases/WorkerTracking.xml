@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegresionTesting">
+
+	<test name="workerTrackingTest">
+		<classes>
+			<class name="workerTracking.TestCases.TC_34_OpenAlertPageTest"></class>
+			<class name="workerTracking.TestCases.TC_35_AssignedOpenPageTest"></class>
+			<class name="workerTracking.TestCases.TC_36_ResolvedAlertPageTest"></class>
+			<class name="workerTracking.TestCases.TC_37_OOGAlertPageTest"></class>
+			<class name="workerTracking.TestCases.TC_38_PresentOnSiteTest"></class>
+			<class name="workerTracking.TestCases.TC_39_LastAlertCardTest"></class>
+			<class name="workerTracking.TestCases.TC_40_MapEnlargeTest"></class>
+			<class name="workerTracking.TestCases.TC_41_MapZoomTest"></class>
+			<class name="workerTracking.TestCases.TC_42_AnalyticsEnlargeTest"></class>
+			<class name="workerTracking.TestCases.TC_43_WorkerTrackingDateRangeTest"></class>
+			<class name="workerTracking.TestCases.TC_44_RefreshTest"></class>
+			<class name="workerTracking.TestCases.TC_45_TrackingTodayOffOnTest"></class>
+			<class name="workerTracking.TestCases.TC_46_TrackingMapEnlargeTest"></class>
+
+		</classes>
+	</test>
+</suite>

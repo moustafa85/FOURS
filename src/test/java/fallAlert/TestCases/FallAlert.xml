@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegresionTesting">
+
+	<test name="fallAlertTest">
+		<classes>
+			<class name="fallAlert.TestCases.TC_18_OpenAlertPageTest"></class>
+			<class name="fallAlert.TestCases.TC_19_AssignedOpenPageTest"></class>
+			<class name="fallAlert.TestCases.TC_20_ResolvedAlertPageTest"></class>
+			<class name="fallAlert.TestCases.TC_21_FallPreventionAlertPageTest"></class>
+			<class name="fallAlert.TestCases.TC_22_FreeFallAlertPageTest"></class>
+			<class name="fallAlert.TestCases.TC_23_SOSAlertPageTest"></class>
+			<class name="fallAlert.TestCases.TC_24_LastAlertCardTest"></class>
+			<class name="fallAlert.TestCases.TC_25_EnlargePageTest"></class>
+			<class name="fallAlert.TestCases.TC_26_DateFilterPageTest"></class>
+			<class name="fallAlert.TestCases.TC_27_RefreshTest"></class>
+			<class name="fallAlert.TestCases.TC_28_FilterAndSearchTest"></class>
+			<class name="fallAlert.TestCases.TC_29_FallPrevActivate"></class>
+			<class name="fallAlert.TestCases.TC_30FreeFallActivate"></class>
+			<class name="fallAlert.TestCases.TC_32_FreeFallDeactivate"></class>
+			<class name="fallAlert.TestCases.TC_31_FallPrevDeactivate"></class>
+			<class name="fallAlert.TestCases.TC_33_PaginationTest"></class>
+		</classes>
+	</test>
+</suite>

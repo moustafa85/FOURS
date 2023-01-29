@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegresionTesting">
+	<parameter name="withLogin" value="no"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
+	<listeners>
+		<listener class-name="fours.utils.TestListener" />
+	</listeners>
+	<test name="Login Test">
+		<classes>
+			<class name="login.TestCases.TC_119_MultipleLoginPageTest"></class>
+			<class name="login.TestCases.TC_120_LoginLogoutPageTest"></class>
+			<class name="login.TestCases.TC_121_LoginDifferentRoles"></class>
+		</classes>
+	</test>
+</suite>

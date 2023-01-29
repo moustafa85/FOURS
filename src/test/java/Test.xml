@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionTesting">
+<parameter name="withLogin" value="yes"></parameter>
+<parameter name="browser" value="chrome"></parameter>
+    <listeners>
+        <listener class-name="fours.utils.TestListener" />
+    </listeners>
+    <test name="Dashboard Test">
+        <classes>
+            <class name="dashboard.TestCases.TC_01_OpenAlertPageTest"></class>
+            <class name="dashboard.TestCases.TC_02_AssignedOpenAlertPageTest"></class>
+            <class name="dashboard.TestCases.TC_03_FallPreventionAlertPageTest"></class>
+            <class name="dashboard.TestCases.TC_04_FreeFallAlertPageTest"></class>
+            <class name="dashboard.TestCases.TC_05_OOGPageTest"></class>
+            <class name="dashboard.TestCases.TC_06_CaughtInAlertPageTest"></class>
+            <class name="dashboard.TestCases.TC_08_EnlargePageTest"></class>
+            <class name="dashboard.TestCases.TC_09_ZoomTest"></class>
+            <class name="dashboard.TestCases.TC_10_AlertFilterPageTest"></class>
+            <class name="dashboard.TestCases.TC_11_AlertPageTest"></class>
+            <class name="dashboard.TestCases.TC_12_PaginationTest"></class>
+            <class name="dashboard.TestCases.TC_13_ColumnSortTest"></class>
+            <class name="dashboard.TestCases.TC_14_AlertStatusEnlargeIconTest"></class>
+            <class name="dashboard.TestCases.TC_16_TopSearchTest"></class>
+            <class name="dashboard.TestCases.SOSAlertPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Alert Management tests">
+        <classes>
+            <class name="AlertMng.TestCases.generateAlertsTest"></class>
+            <class name="AlertMng.TestCases.TC_85_FilterTest"></class>
+            <class name="AlertMng.TestCases.TC_86_SearchTest"></class>
+            <class name="AlertMng.TestCases.TC_87_OpenAlertAssignUserPageTest"></class>
+            <class name="AlertMng.TestCases.TC_88_OpenAlertReassignUserPageTest"></class>
+            <class name="AlertMng.TestCases.TC_89_ResolveAlertPageTest"></class>
+            <class name="AlertMng.TestCases.TC_90_AlertMngPaginationTest"></class>
+            <class name="AlertMng.TestCases.TC_91_ColumnSortingTest"></class>
+        </classes>
+    </test>
+    <test name="caughtInDetectionTests">
+        <classes>
+            <class name="caughtInDetection.TestCases.GenerateCaughtInDetectionAlerts"></class>
+            <class name="caughtInDetection.TestCases.TC_47_OpenAlertPageTest"></class>
+            <class name="caughtInDetection.TestCases.TC_48_AssignedOpenPageTest"></class>
+            <class name="caughtInDetection.TestCases.TC_49_ResolvedAlertPageTest"></class>
+            <class name="caughtInDetection.TestCases.TC_50_CaughtInDetectionAlertPageTest"></class>
+            <class name="caughtInDetection.TestCases.TC_51_PresentOnSitePageTest"></class>
+            <class name="caughtInDetection.TestCases.TC_52_LastAlertCardTest"></class>
+            <class name="caughtInDetection.TestCases.TC_53_MapEnlargeTest"></class>
+            <class name="caughtInDetection.TestCases.TC_54_ActiveStatusTest"></class>
+            <class name="caughtInDetection.TestCases.TC_55_AnalyticsEnlargeTest"></class>
+            <class name="caughtInDetection.TestCases.TC_56_CaughtInDetectionDateRangeTest"></class>
+            <class name="caughtInDetection.TestCases.TC_57_SearchTest"></class>
+            <class name="caughtInDetection.TestCases.TC_58_DeactiveStatusTest"></class>
+            <class name="caughtInDetection.TestCases.TC_59_AddCollisionZoneTest"></class>
+            <class name="caughtInDetection.TestCases.TC_60_AllowedWorkerTest"></class>
+            <class name="caughtInDetection.TestCases.TC_61_ActivateCollisionTest"></class>
+            <class name="caughtInDetection.TestCases.TC_62_InactivateCollisionTest"></class>
+            <class name="caughtInDetection.TestCases.TC_63_EditCollisionZoneTest"></class>
+            <class name="caughtInDetection.TestCases.TC_64_ColumnSortingTest"></class>
+            <class name="caughtInDetection.TestCases.TC_65_PaginationTest"></class>
+        </classes>
+    </test>
+
+    <test name="Device Test">
+        <classes>
+            <class name="device.TestCases.TC_106_AddDevicePageTest"></class>
+            <class name="device.TestCases.TC_98_FilterTest"></class>
+            <class name="device.TestCases.TC_99_EditDevicePageTest"></class>
+            <class name="device.TestCases.TC_101_ActivateDevicePageTest"></class>
+            <class name="device.TestCases.TC_102_DeactivateDevicePageTest"></class>
+            <class name="device.TestCases.TC_103_ColumnSortingTesting"></class>
+            <class name="device.TestCases.TC_104_DevicePaginationTest"></class>
+            <class name="device.TestCases.TC_105_SearchTest"></class>
+            <class name="device.TestCases.TC_107_BulkUploadTest"></class>
+            <class name="device.TestCases.TC_100_DeleteDevice"></class>
+
+        </classes>
+    </test>
+    <test name="fallAlertTest">
+        <classes>
+            <class name="fallAlert.TestCases.TC_18_OpenAlertPageTest"></class>
+            <class name="fallAlert.TestCases.TC_19_AssignedOpenPageTest"></class>
+            <class name="fallAlert.TestCases.TC_20_ResolvedAlertPageTest"></class>
+            <class name="fallAlert.TestCases.TC_21_FallPreventionAlertPageTest"></class>
+            <class name="fallAlert.TestCases.TC_22_FreeFallAlertPageTest"></class>
+            <class name="fallAlert.TestCases.TC_23_SOSAlertPageTest"></class>
+            <class name="fallAlert.TestCases.TC_24_LastAlertCardTest"></class>
+            <class name="fallAlert.TestCases.TC_25_EnlargePageTest"></class>
+            <class name="fallAlert.TestCases.TC_26_DateFilterPageTest"></class>
+            <class name="fallAlert.TestCases.TC_27_RefreshTest"></class>
+            <class name="fallAlert.TestCases.TC_28_FilterAndSearchTest"></class>
+            <class name="fallAlert.TestCases.TC_29_FallPrevActivate"></class>
+            <class name="fallAlert.TestCases.TC_30FreeFallActivate"></class>
+            <class name="fallAlert.TestCases.TC_32_FreeFallDeactivate"></class>
+            <class name="fallAlert.TestCases.TC_31_FallPrevDeactivate"></class>
+            <class name="fallAlert.TestCases.TC_33_PaginationTest"></class>
+        </classes>
+    </test>
+
+
+    <test name="siteMonitoringTest">
+        <classes>
+            <class name="siteMonitoring.TestCases.TC_66_OpenAlertPageTest"></class>
+            <class name="siteMonitoring.TestCases.TC_67_AssignedOpenPageTest"></class>
+            <class name="siteMonitoring.TestCases.TC_68_ResolvedAlertPageTest"></class>
+            <class name="siteMonitoring.TestCases.TC_69_AlertCardTest"></class>
+            <class name="siteMonitoring.TestCases.TC_70_PresentOnSiteCardTest"></class>
+            <class name="siteMonitoring.TestCases.TC_71_LastAlertCardTest"></class>
+            <class name="siteMonitoring.TestCases.TC_72_MapEnlargeTest"></class>
+            <class name="siteMonitoring.TestCases.TC_73_AnalyticsEnlargeTest"></class>
+            <class name="siteMonitoring.TestCases.TC_74_SiteMonitoringDateRangeTest"></class>
+            <class name="siteMonitoring.TestCases.TC_75_AddChildSiteTest"></class>
+            <class name="siteMonitoring.TestCases.TC_76_EditSiteTest"></class>
+            <class name="siteMonitoring.TestCases.TC_77_ChildSiteFilterTest"></class>
+            <class name="siteMonitoring.TestCases.TC_78_RefreshTest"></class>
+            <class name="siteMonitoring.TestCases.TC_79_LastAlertGuardianTest"></class>
+            <class name="siteMonitoring.TestCases.TC_84_AssignReassignSGTest"></class>
+            <class name="siteMonitoring.TestCases.TC_85_AssignReassignBeaconTest"></class>
+        </classes>
+    </test>
+
+    <test name="usersTest">
+        <classes>
+            <class name="users.TestCases.TC_110_FilterTest"></class>
+            <class name="users.TestCases.TC_111SearchTest"></class>
+            <class name="users.TestCases.TC_112_AddUserPageTest"></class>
+            <class name="users.TestCases.TC_113_ActivateUserPageTest"></class>
+            <class name="users.TestCases.TC_114_DeactivateUsersPageTest"></class>
+            <class name="users.TestCases.TC_115_AssignSitePageTest"></class>
+            <class name="users.TestCases.TC_116_EditUserPageTest"></class>
+            <class name="users.TestCases.TC_117_UpdatePasswordTest"></class>
+            <class name="users.TestCases.TC_118_DeleteUserTest"></class>
+            <class name="users.TestCases.UserPaginationTest"></class>
+
+        </classes>
+    </test>
+
+    <test name="workerTest">
+        <classes>
+            <class name="worker.TestCases.TC_97_WorkerPageTest"></class>
+            <class name="worker.TestCases.TC_86_FilterTest"></class>
+            <class name="worker.TestCases.TC_87_SearchTest"></class>
+            <class name="worker.TestCases.TC_88_AssignDevicePageTest"></class>
+            <class name="worker.TestCases.TC_89_AssignSitePageTest"></class>
+            <class name="worker.TestCases.TC_90_EditWorkerPageTest"></class>
+            <class name="worker.TestCases.TC_91_DeleteWorker"></class>
+            <class name="worker.TestCases.TC_92_ActivateWorkerPageTest"></class>
+            <class name="worker.TestCases.TC_93_DeactivateWorkerPageTest"></class>
+            <class name="worker.TestCases.TC_94_WorkerPaginationTest"></class>
+            <class name="worker.TestCases.TC_95_ColumnSortingTesting"></class>
+            <class name="worker.TestCases.TC_96_BulkUploadTest"></class>
+
+        </classes>
+    </test>
+
+    <test name="workerTrackingTest">
+        <classes>
+            <class name="workerTracking.TestCases.TC_34_OpenAlertPageTest"></class>
+            <class name="workerTracking.TestCases.TC_35_AssignedOpenPageTest"></class>
+            <class name="workerTracking.TestCases.TC_36_ResolvedAlertPageTest"></class>
+            <class name="workerTracking.TestCases.TC_37_OOGAlertPageTest"></class>
+            <class name="workerTracking.TestCases.TC_38_PresentOnSiteTest"></class>
+            <class name="workerTracking.TestCases.TC_39_LastAlertCardTest"></class>
+            <class name="workerTracking.TestCases.TC_40_MapEnlargeTest"></class>
+            <class name="workerTracking.TestCases.TC_41_MapZoomTest"></class>
+            <class name="workerTracking.TestCases.TC_42_AnalyticsEnlargeTest"></class>
+            <class name="workerTracking.TestCases.TC_43_WorkerTrackingDateRangeTest"></class>
+            <class name="workerTracking.TestCases.TC_44_RefreshTest"></class>
+            <class name="workerTracking.TestCases.TC_45_TrackingTodayOffOnTest"></class>
+            <class name="workerTracking.TestCases.TC_46_TrackingMapEnlargeTest"></class>
+
+        </classes>
+    </test>
+
+    <test name="Health Vitals Test">
+        <classes>
+<!--            <class name="HealthVitals.TestCases.GenerateHealthVitalstTest"></class>-->
+            <class name="HealthVitals.TestCases.HealthVitalsDashboardpage"></class>
+            <class name="HealthVitals.TestCases.AlertsSections_HealthVitalsDashboardPage"></class>
+            <class name="HealthVitals.TestCases.HighSkinTemp_HealthVitals"></class>
+            <class name="HealthVitals.TestCases.ListofWorkers_ValidateTheColumns_HighSkinTemp"></class>
+            <class name="HealthVitals.TestCases.NormalSkinTemp_HealthVitals"></class>
+            <class name="HealthVitals.TestCases.LowSkinTemp_HealthVitals"></class>
+            <class name="HealthVitals.TestCases.HighBloodPressure_HealthVitals"></class>
+            <class name="HealthVitals.TestCases.NormalBloodPressure_HealthVitals"></class>
+            <class name="HealthVitals.TestCases.LowBloodPressure_HealthVitals"></class>
+            <class name="HealthVitals.TestCases.HighHeartRate_HealthVitals"></class>
+            <class name="HealthVitals.TestCases.NormalHeartRate_HealthVitals"></class>
+            <class name="HealthVitals.TestCases.LowHeartRate_HealthVitals"></class>
+            <class name="HealthVitals.TestCases.HealthVitalsDataRangeTest"></class>
+        </classes>
+    </test>
+    <test name="Login Test">
+        <classes>
+            <class name="login.TestCases.TC_119_MultipleLoginPageTest"></class>
+            <class name="login.TestCases.TC_120_LoginLogoutPageTest"></class>
+            <class name="login.TestCases.TC_121_LoginDifferentRoles"></class>
+        </classes>
+    </test>
+
+</suite>
